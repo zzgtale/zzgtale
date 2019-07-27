@@ -16,5 +16,6 @@ public class TestItem {
         //调用方法
         Item item = itemsService.findItem(1);
         System.out.println(item.getName());
+        System.out.println("11111");
     }
 }
